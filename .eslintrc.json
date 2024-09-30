@@ -1,4 +1,10 @@
 {
+  "parser": "@typescript-eslint/parser", // Add this line
+  "plugins": ["@typescript-eslint"], // Add this line
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended" // Add this line
+  ],
   "rules": {
     "@typescript-eslint/no-empty-interface": "off"
   }
